@@ -1,5 +1,5 @@
 //Basic JS code to implement and demonstrate insertion sort
-
+//NOTE:  Arrayy[k] should not be modified as it compares value.  Need to identify which index to be inserted THEN MODIFY
 var arrayy = [1,9,2,3];
 
 var noIterations = arrayy.length - 1;
