@@ -24,5 +24,5 @@ while(noIterations>0){
     
   }
   
-  noInterations--;
+  noIterations--;
 }
