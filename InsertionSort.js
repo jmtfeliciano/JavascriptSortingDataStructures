@@ -29,7 +29,7 @@ while(noIterations>0){
 }
 
 
-/*
+
 if (arrayy.length == 1){
 	console.log(arrayy);
 }else if(arrayy.length == 2){
@@ -41,4 +41,4 @@ if (arrayy.length == 1){
   }else{
   	console.log(arrayy);
   }
-} */
+} 
