@@ -20,6 +20,7 @@ while(noIterations>0){
         	 	arrayy.splice(currentIndex+1,1);
          		console.log(arrayy);
         	}
+			
       	}else{
       		whereToInsert = i-1;
       	}
