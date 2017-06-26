@@ -15,13 +15,13 @@ while(noIterations>0){
       
 		if(arrayy[i-1] <= arrayy[currentIndex]){
       
-      		if(whereToInsert !== currentIndex && i === 1 ){
+			if(whereToInsert !== currentIndex && i === 1 ){
 				arrayy.splice(whereToInsert,0,arrayy[currentIndex]);
         	 	arrayy.splice(currentIndex+1,1);
          		console.log(arrayy);
-        	}
+			}
 			
-      	}else{
+		}else{
       		whereToInsert = i-1;
       	}
 	}	
