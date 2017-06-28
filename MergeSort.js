@@ -7,9 +7,9 @@ function mergeSort(array){
   if(array.length===1){
     return array[0];
   }else{
-    var value = mergeSort(array.slice(0,array.length / 2)+mergeSort(array.slice(array.length / 2));
+    mergeSort(array.slice(0,array.length / 2)+mergeSort(array.slice(array.length / 2));
     //still unsure how to work the code above                      
   }
-  
+  //need a helper function somewhere
   
 }
