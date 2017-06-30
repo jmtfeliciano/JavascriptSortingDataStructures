@@ -1,6 +1,10 @@
 //Basic JS code to implement and demonstrate insertion sort
 //NOTE:  Arrayy[k] should not be modified as it compares value.  
 // Need to identify which index to be inserted THEN MODIFY
+
+//TO DO LIST:  need to fix bug for array.length>3, because when array[0]>array[1], the entire sorting gets messed up.  so need to work on this
+
+
 var arrayy = [1,9,2,3];
 console.log("Original array is: "+arrayy); // will log original array
 
